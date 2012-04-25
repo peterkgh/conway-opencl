@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98EAA35C130ECF8C00CF7E17 /* ConwayComputeCUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA34B130ECF8C00CF7E17 /* ConwayComputeCUI.cpp */; };
+		98EAA35D130ECF8C00CF7E17 /* dispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA34D130ECF8C00CF7E17 /* dispatch.cpp */; };
+		98EAA35E130ECF8C00CF7E17 /* fileio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA34E130ECF8C00CF7E17 /* fileio.cpp */; };
+		98EAA35F130ECF8C00CF7E17 /* output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA34F130ECF8C00CF7E17 /* output.cpp */; };
+		98EAA360130ECF8C00CF7E17 /* platform_lnx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA350130ECF8C00CF7E17 /* platform_lnx.cpp */; };
+		98EAA361130ECF8C00CF7E17 /* platform_osx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA352130ECF8C00CF7E17 /* platform_osx.cpp */; };
+		98EAA362130ECF8C00CF7E17 /* platform_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA354130ECF8C00CF7E17 /* platform_win.cpp */; };
+		98EAA363130ECF8C00CF7E17 /* setup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA357130ECF8C00CF7E17 /* setup.cpp */; };
+		98EAA364130ECF8C00CF7E17 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA358130ECF8C00CF7E17 /* stdafx.cpp */; };
+		98EAA365130ECF8C00CF7E17 /* swap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98EAA35A130ECF8C00CF7E17 /* swap.cpp */; };
+		98EAA367130ECF9600CF7E17 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EAA366130ECF9600CF7E17 /* OpenCL.framework */; };
+		98EAA369130ECFA400CF7E17 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EAA368130ECFA400CF7E17 /* OpenGL.framework */; };
+		98EAA36B130ECFAB00CF7E17 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EAA36A130ECFAB00CF7E17 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76FB20486AB0100D96B5E /* ConwayComputeCUI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConwayComputeCUI; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EAA34A130ECF8C00CF7E17 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Context.h; path = ConwayComputeCUI/Context.h; sourceTree = "<group>"; };
+		98EAA34B130ECF8C00CF7E17 /* ConwayComputeCUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConwayComputeCUI.cpp; path = ConwayComputeCUI/ConwayComputeCUI.cpp; sourceTree = "<group>"; };
+		98EAA34C130ECF8C00CF7E17 /* ConwayFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConwayFunctions.h; path = ConwayComputeCUI/ConwayFunctions.h; sourceTree = "<group>"; };
+		98EAA34D130ECF8C00CF7E17 /* dispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dispatch.cpp; path = ConwayComputeCUI/dispatch.cpp; sourceTree = "<group>"; };
+		98EAA34E130ECF8C00CF7E17 /* fileio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fileio.cpp; path = ConwayComputeCUI/fileio.cpp; sourceTree = "<group>"; };
+		98EAA34F130ECF8C00CF7E17 /* output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = output.cpp; path = ConwayComputeCUI/output.cpp; sourceTree = "<group>"; };
+		98EAA350130ECF8C00CF7E17 /* platform_lnx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = platform_lnx.cpp; path = ConwayComputeCUI/platform_lnx.cpp; sourceTree = "<group>"; };
+		98EAA351130ECF8C00CF7E17 /* platform_lnx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform_lnx.h; path = ConwayComputeCUI/platform_lnx.h; sourceTree = "<group>"; };
+		98EAA352130ECF8C00CF7E17 /* platform_osx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = platform_osx.cpp; path = ConwayComputeCUI/platform_osx.cpp; sourceTree = "<group>"; };
+		98EAA353130ECF8C00CF7E17 /* platform_osx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform_osx.h; path = ConwayComputeCUI/platform_osx.h; sourceTree = "<group>"; };
+		98EAA354130ECF8C00CF7E17 /* platform_win.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = platform_win.cpp; path = ConwayComputeCUI/platform_win.cpp; sourceTree = "<group>"; };
+		98EAA355130ECF8C00CF7E17 /* platform_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform_win.h; path = ConwayComputeCUI/platform_win.h; sourceTree = "<group>"; };
+		98EAA356130ECF8C00CF7E17 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform.h; path = ConwayComputeCUI/platform.h; sourceTree = "<group>"; };
+		98EAA357130ECF8C00CF7E17 /* setup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = setup.cpp; path = ConwayComputeCUI/setup.cpp; sourceTree = "<group>"; };
+		98EAA358130ECF8C00CF7E17 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ConwayComputeCUI/stdafx.cpp; sourceTree = "<group>"; };
+		98EAA359130ECF8C00CF7E17 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ConwayComputeCUI/stdafx.h; sourceTree = "<group>"; };
+		98EAA35A130ECF8C00CF7E17 /* swap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = swap.cpp; path = ConwayComputeCUI/swap.cpp; sourceTree = "<group>"; };
+		98EAA35B130ECF8C00CF7E17 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = targetver.h; path = ConwayComputeCUI/targetver.h; sourceTree = "<group>"; };
+		98EAA366130ECF9600CF7E17 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		98EAA368130ECFA400CF7E17 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		98EAA36A130ECFAB00CF7E17 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EAA367130ECF9600CF7E17 /* OpenCL.framework in Frameworks */,
+				98EAA369130ECFA400CF7E17 /* OpenGL.framework in Frameworks */,
+				98EAA36B130ECFAB00CF7E17 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ConwayComputeCUI */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				98EAA366130ECF9600CF7E17 /* OpenCL.framework */,
+				98EAA368130ECFA400CF7E17 /* OpenGL.framework */,
+				98EAA36A130ECFAB00CF7E17 /* GLUT.framework */,
+			);
+			name = ConwayComputeCUI;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				98EAA34A130ECF8C00CF7E17 /* Context.h */,
+				98EAA34B130ECF8C00CF7E17 /* ConwayComputeCUI.cpp */,
+				98EAA34C130ECF8C00CF7E17 /* ConwayFunctions.h */,
+				98EAA34D130ECF8C00CF7E17 /* dispatch.cpp */,
+				98EAA34E130ECF8C00CF7E17 /* fileio.cpp */,
+				98EAA34F130ECF8C00CF7E17 /* output.cpp */,
+				98EAA350130ECF8C00CF7E17 /* platform_lnx.cpp */,
+				98EAA351130ECF8C00CF7E17 /* platform_lnx.h */,
+				98EAA352130ECF8C00CF7E17 /* platform_osx.cpp */,
+				98EAA353130ECF8C00CF7E17 /* platform_osx.h */,
+				98EAA354130ECF8C00CF7E17 /* platform_win.cpp */,
+				98EAA355130ECF8C00CF7E17 /* platform_win.h */,
+				98EAA356130ECF8C00CF7E17 /* platform.h */,
+				98EAA357130ECF8C00CF7E17 /* setup.cpp */,
+				98EAA358130ECF8C00CF7E17 /* stdafx.cpp */,
+				98EAA359130ECF8C00CF7E17 /* stdafx.h */,
+				98EAA35A130ECF8C00CF7E17 /* swap.cpp */,
+				98EAA35B130ECF8C00CF7E17 /* targetver.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* ConwayComputeCUI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* ConwayComputeCUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "ConwayComputeCUI" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConwayComputeCUI;
+			productInstallPath = "$(HOME)/bin";
+			productName = ConwayComputeCUI;
+			productReference = 8DD76FB20486AB0100D96B5E /* ConwayComputeCUI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "ConwayComputeCUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ConwayComputeCUI */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* ConwayComputeCUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EAA35C130ECF8C00CF7E17 /* ConwayComputeCUI.cpp in Sources */,
+				98EAA35D130ECF8C00CF7E17 /* dispatch.cpp in Sources */,
+				98EAA35E130ECF8C00CF7E17 /* fileio.cpp in Sources */,
+				98EAA35F130ECF8C00CF7E17 /* output.cpp in Sources */,
+				98EAA360130ECF8C00CF7E17 /* platform_lnx.cpp in Sources */,
+				98EAA361130ECF8C00CF7E17 /* platform_osx.cpp in Sources */,
+				98EAA362130ECF8C00CF7E17 /* platform_win.cpp in Sources */,
+				98EAA363130ECF8C00CF7E17 /* setup.cpp in Sources */,
+				98EAA364130ECF8C00CF7E17 /* stdafx.cpp in Sources */,
+				98EAA365130ECF8C00CF7E17 /* swap.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ConwayComputeCUI;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ConwayComputeCUI;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "ConwayComputeCUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "ConwayComputeCUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

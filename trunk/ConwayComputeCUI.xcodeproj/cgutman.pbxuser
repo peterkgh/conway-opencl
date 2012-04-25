@@ -1,0 +1,189 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 98EAA33E130ECF2500CF7E17 /* ConwayComputeCUI */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* ConwayComputeCUI */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* ConwayComputeCUI */,
+		);
+		codeSenseManager = 98EAA348130ECF2800CF7E17 /* Code sense */;
+		executables = (
+			98EAA33E130ECF2500CF7E17 /* ConwayComputeCUI */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326730183;
+			PBXWorkspaceStateSaveDate = 326730183;
+		};
+		perUserProjectItems = {
+			982D1C87137981CF00B982B9 /* PBXTextBookmark */ = 982D1C87137981CF00B982B9 /* PBXTextBookmark */;
+			982D1C8C137ABC2D00B982B9 /* PBXTextBookmark */ = 982D1C8C137ABC2D00B982B9 /* PBXTextBookmark */;
+			982D4AF813214EC8003A1D85 /* PBXTextBookmark */ = 982D4AF813214EC8003A1D85 /* PBXTextBookmark */;
+			982E83E5131829E700F8F277 /* PBXTextBookmark */ = 982E83E5131829E700F8F277 /* PBXTextBookmark */;
+			982E83E6131829E700F8F277 /* PBXTextBookmark */ = 982E83E6131829E700F8F277 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 98EAA347130ECF2800CF7E17 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76FA90486AB0100D96B5E /* ConwayComputeCUI */ = {
+		activeExec = 0;
+		executables = (
+			98EAA33E130ECF2500CF7E17 /* ConwayComputeCUI */,
+		);
+	};
+	982D1C87137981CF00B982B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 98EAA354130ECF8C00CF7E17 /* platform_win.cpp */;
+		name = "platform_win.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 384;
+		vrLoc = 3116;
+	};
+	982D1C8C137ABC2D00B982B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 98EAA354130ECF8C00CF7E17 /* platform_win.cpp */;
+		name = "platform_win.cpp: 14";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 40;
+	};
+	982D4AF813214EC8003A1D85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 98EAA350130ECF8C00CF7E17 /* platform_lnx.cpp */;
+		name = "platform_lnx.cpp: 14";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 2534;
+	};
+	982E83E5131829E700F8F277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 98EAA353130ECF8C00CF7E17 /* platform_osx.h */;
+		name = "platform_osx.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 0;
+	};
+	982E83E6131829E700F8F277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 98EAA352130ECF8C00CF7E17 /* platform_osx.cpp */;
+		name = "platform_osx.cpp: 9";
+		rLen = 22;
+		rLoc = 116;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	98EAA33E130ECF2500CF7E17 /* ConwayComputeCUI */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ConwayComputeCUI;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	98EAA347130ECF2800CF7E17 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	98EAA348130ECF2800CF7E17 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	98EAA34B130ECF8C00CF7E17 /* ConwayComputeCUI.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 2704}}";
+			sepNavSelRange = "{113, 16}";
+			sepNavVisRange = "{0, 933}";
+			sepNavWindowFrame = "{{15, 58}, {1156, 715}}";
+		};
+	};
+	98EAA350130ECF8C00CF7E17 /* platform_lnx.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1937}}";
+			sepNavSelRange = "{203, 0}";
+			sepNavVisRange = "{2534, 430}";
+			sepNavWindowFrame = "{{85, 63}, {1156, 715}}";
+		};
+	};
+	98EAA352130ECF8C00CF7E17 /* platform_osx.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1742}}";
+			sepNavSelRange = "{116, 22}";
+			sepNavVisRange = "{0, 335}";
+			sepNavWindowFrame = "{{136, 40}, {1156, 715}}";
+		};
+	};
+	98EAA353130ECF8C00CF7E17 /* platform_osx.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 275}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 300}";
+		};
+	};
+	98EAA354130ECF8C00CF7E17 /* platform_win.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2405}}";
+			sepNavSelRange = "{231, 0}";
+			sepNavVisRange = "{40, 331}";
+		};
+	};
+}

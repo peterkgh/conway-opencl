@@ -1,0 +1,1 @@
+An implementation of Conway's Game of Life that renders to screen on each iteration and can be used as a hardware stress test. Compatible with Windows, OS X, and Linux (untested) via platform-specific headers and source. It needs some cleanup since I wrote it a couple of years ago but it's here for VC and study.
